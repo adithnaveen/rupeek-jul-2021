@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Particular Cab </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="../js/script.js"></script>
+</head>
+
+<body>
+    <div class="row col">
+        <h1 class="alert alert-info">
+            Get Particular Cab
+        </h1>
+    </div>
+
+    <div class="container">
+        <input type="text" id="cab-id" placeholder="Enter Cab Id ">
+        <button id="btnGet" class="btn btn-primary" onclick="getCabById(event)">Get Data</button>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <label for="cab-id">Cab ID</label>
+            <span id="cab-id"></span>
+        </div>
+        <div class="content">
+            <label for="cab-type">Cab Type</label>
+            <span id="cab-type"></span>
+        </div>
+
+        <div class="content">
+            <label for="per-m">Per KM </label>
+            <span id="per-km"></span>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+{
+  "cabs": [
+    {
+      "cabId": 6,
+      "carType": "jeep",
+      "perKmRate": 50
+    },
+    {
+      "id": 7,
+      "cabId": 7,
+      "carType": "jeep",
+      "perKmRate": 50
+    },
+    {
+      "id": "77",
+      "cabId": "77",
+      "cabType": "jh",
+      "perKm": "7"
+    },
+    {
+      "id": "100",
+      "cabId": "100",
+      "cabType": "Sedan",
+      "perKm": "12"
+    },
+    {
+      "id": "201",
+      "cabId": "201",
+      "cabType": "Hatch Back",
+      "perKm": "11"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="row">
+        <h1 class="alert alert-info">
+            Welcome to Cab Booking
+        </h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form onsubmit="return fnAddCab(event)">
+                    <div class="form-group">
+                        <label for="cab-id">Cab Id</label>
+                        <input type="number" class="form-control" id="cab-id" placeholder="Enter cab id">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cab-id">Cab type</label>
+                        <input type="text" class="form-control" id="cab-type" placeholder="Enter cab type">
+                    </div>
+                    <div class="form-group">
+                        <label for="per-km">Cost Per KM </label>
+                        <input type="text" class="form-control" id="per-km" placeholder="Cost per KM">
+                    </div>
+                    <div>
+                        <button>Submit</button>
+                    </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
