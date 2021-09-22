@@ -17,7 +17,8 @@ function fnAddCab(evt){
     }).then(resp => resp.json())
     .then(data => {
         alert("Record Inserted Successfully"+  data)
-        window.location.replace("../index.html");
+        // window.location.href ="http://127.0.0.1:5500/";
+        window.location.replace("http://127.0.0.1:5500/");
     } )
 }
 

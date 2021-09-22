@@ -1,11 +1,6 @@
 {
   "cabs": [
     {
-      "cabId": 6,
-      "carType": "jeep",
-      "perKmRate": 50
-    },
-    {
       "id": 7,
       "cabId": 7,
       "carType": "jeep",
@@ -28,6 +23,42 @@
       "cabId": "201",
       "cabType": "Hatch Back",
       "perKm": "11"
+    },
+    {
+      "id": "18",
+      "cabId": "18",
+      "cabType": "testing",
+      "perKm": "123"
+    },
+    {
+      "id": "101",
+      "cabId": "101",
+      "cabType": "Sedan",
+      "perKm": "22"
+    },
+    {
+      "id": "112",
+      "cabId": "112",
+      "cabType": "sedan",
+      "perKm": "22"
+    },
+    {
+      "id": "113",
+      "cabId": "113",
+      "cabType": "hatchback",
+      "perKm": "23"
+    },
+    {
+      "id": "555",
+      "cabId": "555",
+      "cabType": "test",
+      "perKm": "12"
+    },
+    {
+      "id": "665",
+      "cabId": "665",
+      "cabType": "testing",
+      "perKm": "12"
     }
   ]
 }
